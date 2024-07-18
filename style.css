@@ -1,0 +1,223 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Nunito Sans", sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-color: #F5F5F5;
+}
+:root{
+    --x:#FFDE59;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+
+}
+
+.item{
+    color: var(--x);
+}
+
+.item:hover{
+   
+    font-size: 22px;
+}
+
+.items{
+    margin-top: 65px;
+    margin-right: 100px;
+}
+
+.items a{
+    margin: 0px 15px;
+    font-size: 20px;
+}
+
+#home{
+    height: 65vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(https://c1.wallpaperflare.com/preview/875/1014/362/table-restaurant-food-lunch.jpg);
+    color: white;
+    padding-top: 10%;
+    
+}
+
+span{
+    color: var(--x);
+}
+
+#search{
+    padding: 5px;
+    background-color: var(--x);
+    border-radius: 5px;
+    border: none;
+    
+    
+}
+
+#home p{
+    margin-top: 10%;
+    margin-left: 7%;
+    text-align: justify;
+    font-size: 20px;
+    text-align: justify;
+}
+h1{
+    margin-left: 7%;
+}
+
+#popular{
+    background-color: rgba(0, 0, 0, 0.39);
+    text-align: center;
+    padding-top: 50px;
+    
+    
+}
+
+.btn{
+    width: 27px;
+    height: 27px;
+    background-color: var(--x);
+    border: 1px solid rgb(143, 143, 26);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addOn{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.inpt{
+    width: 60px;
+    height: 27px;
+    background-color: var(--x);
+    border: 1px solid rgb(143, 143, 26);
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+#popular img{
+    border-radius: 8px;
+    width: 300px;
+     height: 300px;
+    margin: 50px 20px 20px 20px;
+
+}
+
+.dishes{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+   
+}
+
+#popular h2{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+    
+}
+
+.dishes button{
+    width: 120px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #FFDE59;
+    border: 1px solid rgb(143, 143, 26);
+   
+    font-weight: 700;
+}
+
+.imgDiv{
+    background-color: rgba(0, 0, 0, 0.349);
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+.imgDiv h3{
+    font-size: 20px;
+}
+.offerDiv{
+    background-color: #F5F5F5;
+   margin-top: 50px;
+    display: flex;
+}
+
+#foie{
+    width: 500px;
+    border-radius: 10px;
+
+}
+
+.offerDiv{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.offerDiv2{
+    margin-left: 10%;
+    
+}
+
+.foieDiv{
+    width: 500px;
+    margin-right: 10%;
+}
+#order{
+    width: 250px;
+    height: 60px;
+    font-size: 25px;
+    background-color: black;
+    color: var(--x);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: black;
+    color: var(--x);
+    
+}
+
+#iconDiv i{
+    margin-left: 10px;
+    
+}
+#iconDiv{
+    margin-right: 10%;
+}
+
+.footerDiv{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+#about{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+#about a{
+
+}
